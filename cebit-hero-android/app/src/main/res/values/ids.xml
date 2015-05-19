@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tutorialOne" type="id"/>
+    <item name="tutorialTwo" type="id"/>
+    <item name="tutorialThree" type="id"/>
+    <item name="stepOne" type="id"/>
+    <item name="stepTwo" type="id"/>
+    <item name="stepThree" type="id"/>
+</resources>

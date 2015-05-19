@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShowcaseView.Detail" parent="TextAppearance.ShowcaseView.Detail">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="ShowcaseView.Title" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

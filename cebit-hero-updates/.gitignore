@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!hero.apk
+!update.xml
+
+!*/

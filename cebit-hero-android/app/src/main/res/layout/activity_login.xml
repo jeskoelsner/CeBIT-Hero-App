@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <!-- Login progress -->
+    <ImageButton
+        android:contentDescription="@string/description_howto_start"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:scaleType="centerInside"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/help"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_tut"
+        android:layout_alignParentRight="true"/>
+
+    <ProgressBar android:id="@+id/loginProgress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <ScrollView android:id="@+id/loginForm"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:overScrollMode="never"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:id="@+id/codeForm" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:baselineAligned="true">
+            <ImageView
+                android:contentDescription="@string/description_logo"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:id="@+id/loginLogo"
+                android:src="@drawable/logo_hero_login"
+                android:layout_gravity="center_horizontal" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        style="@style/LogotextLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/loginLogoTextLeft"
+                        android:text="@string/name_first_half"/>
+                    <TextView
+                        style="@style/LogotextRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/loginLogoTextLeft"
+                        android:id="@+id/loginLogoTextRight"
+                        android:text="@string/name_second_half"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/editer"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+            <ImageButton
+                android:contentDescription="@string/description_qr"
+                android:id="@+id/qrCode"
+                android:background="@color/secondary_color"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:scaleType="fitCenter"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_qr"/>
+            <EditText
+                android:id="@+id/codeInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/qrCode"
+                android:layout_alignBottom="@id/qrCode"
+                android:layout_toLeftOf="@id/qrCode"
+                android:layout_alignParentLeft="true"
+                android:hint="@string/prompt_code"
+                android:inputType="textVisiblePassword"
+                android:singleLine="true" />
+
+            </RelativeLayout>
+
+            <Button android:id="@+id/startButton"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/action_start"/>
+
+            <RelativeLayout
+                android:layout_gravity="bottom"
+                android:id="@+id/footer"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+                <ImageButton
+                    android:contentDescription="@string/description_logo_softwareag"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logo_softwareag_login"
+                    android:id="@+id/softwareagButton"
+                    android:layout_alignParentLeft="true" />
+
+                <ImageButton
+                    android:contentDescription="@string/description_logo_livesapp"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/livesappButton"
+                    android:src="@drawable/logo_livesapp_login"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tandc"
+                android:text="@string/tandc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/secondary_color"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:layout_marginBottom="@dimen/element_margin_bottom"
+                android:layout_marginTop="@dimen/element_margin_top"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+

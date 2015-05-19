@@ -1,0 +1,868 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#fb0006",
+                "fill-opacity": 0.5,
+                "title": "Halle 9",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.637&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.637&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.812750405617571,
+                            52.31920042809075
+                        ],
+                        [
+                            9.810734756026653,
+                            52.31916684213554
+                        ],
+                        [
+                            9.810645460170912,
+                            52.321191918766424
+                        ],
+                        [
+                            9.81266201505659,
+                            52.32122499607538
+                        ],
+                        [
+                            9.812750405617571,
+                            52.31920042809075
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#fdb100",
+                "fill-opacity": 0.5,
+                "title": "Halle 16",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.621&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.621&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.805428727362882,
+                            52.323513650626516
+                        ],
+                        [
+                            9.806474610480088,
+                            52.323649575565874
+                        ],
+                        [
+                            9.806570675428187,
+                            52.3233725958165
+                        ],
+                        [
+                            9.808038697610185,
+                            52.32356319290461
+                        ],
+                        [
+                            9.80822155424213,
+                            52.32303672242629
+                        ],
+                        [
+                            9.806782756309723,
+                            52.322849299637355
+                        ],
+                        [
+                            9.806857268840295,
+                            52.32262140819674
+                        ],
+                        [
+                            9.806850080531285,
+                            52.322620513648445
+                        ],
+                        [
+                            9.806888738345155,
+                            52.322510910968695
+                        ],
+                        [
+                            9.805822253437164,
+                            52.32237657502054
+                        ],
+                        [
+                            9.805428727362882,
+                            52.323513650626516
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#05dc2b",
+                "fill-opacity": 0.5,
+                "title": "Halle 5",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.623&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.623&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.809676163049776,
+                            52.325366193442875
+                        ],
+                        [
+                            9.809839546490915,
+                            52.324887101903734
+                        ],
+                        [
+                            9.809696000034391,
+                            52.32486966231573
+                        ],
+                        [
+                            9.809851438012371,
+                            52.32441884329807
+                        ],
+                        [
+                            9.812445906275796,
+                            52.32475241160877
+                        ],
+                        [
+                            9.812128887257291,
+                            52.3256824389825
+                        ],
+                        [
+                            9.810798656102856,
+                            52.32551093059737
+                        ],
+                        [
+                            9.810795411331354,
+                            52.32552739442358
+                        ],
+                        [
+                            9.810206439671147,
+                            52.325484035505944
+                        ],
+                        [
+                            9.810213815983973,
+                            52.32543552125248
+                        ],
+                        [
+                            9.809676163049776,
+                            52.325366193442875
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#fe169b",
+                "fill-opacity": 0.5,
+                "title": "Halle 6",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.624&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.624&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.812613110898155,
+                            52.323731495593734
+                        ],
+                        [
+                            9.812451319583557,
+                            52.3237147690205
+                        ],
+                        [
+                            9.812474135450621,
+                            52.323635166153345
+                        ],
+                        [
+                            9.812491623293468,
+                            52.32363702303905
+                        ],
+                        [
+                            9.812609553445972,
+                            52.323216307660324
+                        ],
+                        [
+                            9.812445501131702,
+                            52.3231989663319
+                        ],
+                        [
+                            9.812460450488695,
+                            52.32312345121014
+                        ],
+                        [
+                            9.810511598915905,
+                            52.32298226132776
+                        ],
+                        [
+                            9.810509437422617,
+                            52.322994294352675
+                        ],
+                        [
+                            9.810262421946707,
+                            52.32296817856202
+                        ],
+                        [
+                            9.80999884225762,
+                            52.32390402772441
+                        ],
+                        [
+                            9.810081359604741,
+                            52.323912853419756
+                        ],
+                        [
+                            9.809958105577056,
+                            52.32435186443561
+                        ],
+                        [
+                            9.812368162760368,
+                            52.32460394018199
+                        ],
+                        [
+                            9.812613110898155,
+                            52.323731495593734
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#0013fd",
+                "fill-opacity": 0.5,
+                "title": "Halle 12",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.625&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.625&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.806087749894429,
+                            52.319305966827365
+                        ],
+                        [
+                            9.803135665622296,
+                            52.31872008546197
+                        ],
+                        [
+                            9.802586199026019,
+                            52.31975968255837
+                        ],
+                        [
+                            9.805538345672128,
+                            52.32034557729912
+                        ],
+                        [
+                            9.806087749894429,
+                            52.319305966827365
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#dfff00",
+                "fill-opacity": 0.5,
+                "title": "Halle 11",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.589&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.589&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.809324409245859,
+                            52.31941753577607
+                        ],
+                        [
+                            9.808911576322425,
+                            52.32068133474685
+                        ],
+                        [
+                            9.806113659335164,
+                            52.320337532758565
+                        ],
+                        [
+                            9.806107826862672,
+                            52.320336816074175
+                        ],
+                        [
+                            9.80652262337182,
+                            52.31907557438199
+                        ],
+                        [
+                            9.809324409245859,
+                            52.31941753577607
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#00d9ff",
+                "fill-opacity": 0.5,
+                "title": "Halle 13",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.627&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.627&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.802837333552462,
+                            52.31865790822908
+                        ],
+                        [
+                            9.79967127796534,
+                            52.31802927152999
+                        ],
+                        [
+                            9.799120236597279,
+                            52.31907178311042
+                        ],
+                        [
+                            9.802286060454723,
+                            52.31970022880162
+                        ],
+                        [
+                            9.802837333552462,
+                            52.31865790822908
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#ff040b",
+                "stroke-width": 1,
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5,
+                "title": "Halle 8",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.629&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.629&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.81091163394452,
+                            52.321196233612355
+                        ],
+                        [
+                            9.810885817633137,
+                            52.32185832962621
+                        ],
+                        [
+                            9.811187171034325,
+                            52.321863395908586
+                        ],
+                        [
+                            9.81118055349657,
+                            52.32201120509115
+                        ],
+                        [
+                            9.812620140953163,
+                            52.32211661786553
+                        ],
+                        [
+                            9.81266201505659,
+                            52.32122499607538
+                        ],
+                        [
+                            9.81091163394452,
+                            52.321196233612355
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#10abc7",
+                "fill-opacity": 0.5,
+                "title": "Halle 2",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.630&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.630&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.805969138503855,
+                            52.32826054997795
+                        ],
+                        [
+                            9.806724516943127,
+                            52.32681003425176
+                        ],
+                        [
+                            9.806979927399682,
+                            52.32685996316306
+                        ],
+                        [
+                            9.807033429393272,
+                            52.32675718978496
+                        ],
+                        [
+                            9.808897592467554,
+                            52.32712270699662
+                        ],
+                        [
+                            9.808843874375041,
+                            52.32722548270301
+                        ],
+                        [
+                            9.809105768519718,
+                            52.3272766100445
+                        ],
+                        [
+                            9.808681295637113,
+                            52.32808872002085
+                        ],
+                        [
+                            9.806734393212984,
+                            52.32770864856861
+                        ],
+                        [
+                            9.806535751362745,
+                            52.32808856584349
+                        ],
+                        [
+                            9.806462072299858,
+                            52.32807410532947
+                        ],
+                        [
+                            9.806327829301162,
+                            52.32833083912278
+                        ],
+                        [
+                            9.805969138503855,
+                            52.32826054997795
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#d002ac",
+                "fill-opacity": 0.5,
+                "title": "Halle 3",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.631&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.631&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.80939114731073,
+                            52.326968298461594
+                        ],
+                        [
+                            9.810823903340296,
+                            52.3270748563733
+                        ],
+                        [
+                            9.810525867070131,
+                            52.328590879420844
+                        ],
+                        [
+                            9.810523901938797,
+                            52.32860087529486
+                        ],
+                        [
+                            9.809087072352192,
+                            52.32849537669713
+                        ],
+                        [
+                            9.80939114731073,
+                            52.326968298461594
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#ffc004",
+                "fill-opacity": 0.5,
+                "title": "Halle 17",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.640&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.640&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.804963390830862,
+                            52.32468149389081
+                        ],
+                        [
+                            9.805039771979294,
+                            52.32445282093553
+                        ],
+                        [
+                            9.804825848106017,
+                            52.324424245206224
+                        ],
+                        [
+                            9.804988219930904,
+                            52.323965208085184
+                        ],
+                        [
+                            9.804974393402908,
+                            52.323963300984786
+                        ],
+                        [
+                            9.805018389008543,
+                            52.32383466929063
+                        ],
+                        [
+                            9.805080754830515,
+                            52.32384328435001
+                        ],
+                        [
+                            9.805202039185076,
+                            52.323484206403485
+                        ],
+                        [
+                            9.806474610480118,
+                            52.32364957556584
+                        ],
+                        [
+                            9.806398480892211,
+                            52.32386852932439
+                        ],
+                        [
+                            9.807671955453435,
+                            52.32403238354449
+                        ],
+                        [
+                            9.807646779398665,
+                            52.32410990216368
+                        ],
+                        [
+                            9.807856701329143,
+                            52.32413713545763
+                        ],
+                        [
+                            9.80755063442555,
+                            52.32501840073068
+                        ],
+                        [
+                            9.8060592123616,
+                            52.324826375124225
+                        ],
+                        [
+                            9.806034889626076,
+                            52.324896941319935
+                        ],
+                        [
+                            9.805085658925398,
+                            52.32477472443585
+                        ],
+                        [
+                            9.805111426997335,
+                            52.32469996475619
+                        ],
+                        [
+                            9.804963390830862,
+                            52.32468149389081
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#fff909",
+                "fill-opacity": 0.5,
+                "title": "Halle 7",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.641&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.641&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.812840268745795,
+                            52.32217691702688
+                        ],
+                        [
+                            9.812702226760926,
+                            52.322166772968956
+                        ],
+                        [
+                            9.812710739820375,
+                            52.32212327564191
+                        ],
+                        [
+                            9.812620140953163,
+                            52.32211661786553
+                        ],
+                        [
+                            9.812620140953163,
+                            52.32211661786553
+                        ],
+                        [
+                            9.810601542163175,
+                            52.32196825993509
+                        ],
+                        [
+                            9.81059299787336,
+                            52.32201190622099
+                        ],
+                        [
+                            9.810463287131862,
+                            52.32200247939584
+                        ],
+                        [
+                            9.810316149839846,
+                            52.322757584272004
+                        ],
+                        [
+                            9.810506996111146,
+                            52.32277133451135
+                        ],
+                        [
+                            9.810494681705713,
+                            52.32283491377386
+                        ],
+                        [
+                            9.81259897600643,
+                            52.32298968070013
+                        ],
+                        [
+                            9.812611468213612,
+                            52.32292573942822
+                        ],
+                        [
+                            9.812692871361058,
+                            52.32293171119397
+                        ],
+                        [
+                            9.812840268745795,
+                            52.32217691702688
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#df5900",
+                "fill-opacity": 0.5,
+                "title": "Halle 14",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.628&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.628&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.808566462425235,
+                            52.32175769619487
+                        ],
+                        [
+                            9.808696392679582,
+                            52.32137496438966
+                        ],
+                        [
+                            9.806317968908663,
+                            52.320898933630225
+                        ],
+                        [
+                            9.806127972976327,
+                            52.32146529010628
+                        ],
+                        [
+                            9.808566462425235,
+                            52.32175769619487
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#05c2fa",
+                "fill-opacity": 0.5,
+                "title": "Halle 4",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.635&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.635&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.809433431053698,
+                            52.32680411673053
+                        ],
+                        [
+                            9.809669322019214,
+                            52.32560862657469
+                        ],
+                        [
+                            9.812365390652955,
+                            52.32580733587988
+                        ],
+                        [
+                            9.812129499687424,
+                            52.327002820666245
+                        ],
+                        [
+                            9.809433431053698,
+                            52.32680411673053
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 0,
+                "stroke-opacity": 1,
+                "fill": "#fc6501",
+                "fill-opacity": 0.5,
+                "title": "Halle 15",
+                "link": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.620&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "guid": "http://dynmap.db.messe.de:80/wms/reflect?featureid=buildings_0.620&layers=cebit15%3Abuildings_0&format=application%2Fatom%2Bxml",
+                "description": "<h4>buildings_0</h4><ul class="
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.808566462428807,
+                            52.32175769619722
+                        ],
+                        [
+                            9.808566462428807,
+                            52.32175769619722
+                        ],
+                        [
+                            9.808330659263103,
+                            52.32245227777021
+                        ],
+                        [
+                            9.806963549534458,
+                            52.32228548233102
+                        ],
+                        [
+                            9.806888738345155,
+                            52.322510910968695
+                        ],
+                        [
+                            9.806888738345155,
+                            52.322510910968695
+                        ],
+                        [
+                            9.805822253437164,
+                            52.32237657502054
+                        ],
+                        [
+                            9.806127972976327,
+                            52.32146529010628
+                        ],
+                        [
+                            9.808566462428807,
+                            52.32175769619722
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

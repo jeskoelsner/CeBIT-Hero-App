@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    lintOptions{
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "de.idepe.cebithero"
+        minSdkVersion 10
+        targetSdkVersion 21
+        versionCode 3
+        versionName "1.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        pickFirst 'META-INF/services/javax.annotation.processing.Processor'
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+        url 'http://oss.sonatype.org/content/repositories/snapshots'
+    }
+    maven {
+        url 'https://repo.eclipse.org/content/repositories/paho-releases/'
+    }
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.github.amlcurran.showcaseview:library:5.1.1-SNAPSHOT@aar'
+    compile 'com.norbsoft.typefacehelper:library:0.9.0'
+    compile 'com.afollestad:material-dialogs:0.6.3.5'
+    compile ('io.nlopez.smartlocation:library:3.0.3'){
+        exclude group: 'com.google.android.gms'
+    }
+    compile ('com.github.snowdream.android.app:updater:1.0@aar'){
+        transitive=true
+    }
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile ('com.mapbox.mapboxsdk:mapbox-android-sdk:0.7.1@aar'){
+        transitive=true
+    }
+    compile (group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.2') {
+        exclude module: 'support-v4'
+    }
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+
+}

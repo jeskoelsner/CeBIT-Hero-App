@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="prompt_code">ENTER CODE</string>
+    <string name="action_start">START GAME</string>
+
+    <string name="error_invalid_code">Registration code invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="tandc">Terms &amp; Conditions</string>
+</resources>

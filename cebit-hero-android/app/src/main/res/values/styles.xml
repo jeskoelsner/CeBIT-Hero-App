@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Dashboard.Timer" parent="Dashboard">
+        <item name="android:color">#80000000</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="Dashboard.Welcome.Name" parent="Dashboard.Welcome">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Dashboard.Welcome" parent="Dashboard">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="Dashboard">
+        <item name="android:color">@color/primary_text_default_material_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ShowcaseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent_color</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="ShowcaseView.Title" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="ShowcaseView.Detail" parent="TextAppearance.ShowcaseView.Detail">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Tutorial">
+        <item name="android:buttonStyle">@style/UI.Button</item>
+
+        <item name="sv_backgroundColor">@color/tutorial_transparent</item>
+        <item name="sv_detailTextColor">@color/secondary_color</item>
+        <item name="sv_titleTextColor">@color/primary_color</item>
+        <item name="sv_tintButtonColor">@color/tutorial_transparent</item>
+        <item name="sv_buttonBackgroundColor">@color/accent_color</item>
+        <item name="sv_buttonForegroundColor">@color/accent_color</item>
+        <item name="sv_buttonText">NEXT</item>
+        <item name="sv_detailTextAppearance">@style/ShowcaseView.Detail</item>
+        <item name="sv_titleTextAppearance">@style/ShowcaseView.Title</item>
+    </style>
+    <style name="LogotextRight">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+
+        <item name="android:layout_marginTop">@dimen/element_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin_bottom</item>
+    </style>
+    <style name="LogotextLeft">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+
+        <item name="android:layout_marginTop">@dimen/element_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin_bottom</item>
+    </style>
+    <style name="UI.Edit" parent="UI">
+        <item name="android:layout_marginTop">@dimen/element_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/element_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin_left</item>
+
+        <item name="android:paddingLeft">@dimen/text_padding_left</item>
+        <item name="android:paddingRight">@dimen/text_padding_left</item>
+        <item name="android:paddingTop">@dimen/text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+        <item name="android:background">@drawable/edit_borderless_white</item>
+
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+
+        <item name="android:textColor">@color/material_light_primary_text</item>
+        <item name="android:textColorHighlight">@color/material_light_accent_text</item>
+        <item name="android:textColorHint">@color/material_light_hint_text</item>
+        <item name="android:textSize">@dimen/text_size_edit</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="UI.Button" parent="UI">
+        <item name="android:layout_marginTop">@dimen/element_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/element_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/element_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/element_margin_left</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/accent_color</item>
+        <item name="android:textColorHighlight">@color/secondary_color</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+    </style>
+    <style name="UI">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="AppTheme.Full" parent="AppTheme">
+        <!--
+        <item name="android:background" >@color/primary_color</item>
+        <item name="background">@color/primary_color</item>
+
+        <item name="android:colorBackground">@color/primary_color</item>
+        -->
+        <item name="android:windowBackground">@color/primary_color</item>
+    </style>
+    <style name="AppTheme.Actionbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/secondary_color</item>
+        <item name="android:colorBackground">@color/secondary_color</item>
+        <item name="android:imageButtonStyle">@style/UI</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:buttonStyle">@style/UI.Button</item>
+        <item name="android:imageButtonStyle">@style/UI.Button</item>
+        <item name="android:editTextStyle">@style/UI.Edit</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+
+        <item name="colorControlNormal">@color/primary_color</item>
+        <item name="colorControlActivated">@color/accent_color</item>
+        <item name="colorControlHighlight">@color/accent_color</item>
+    </style>
+</resources>

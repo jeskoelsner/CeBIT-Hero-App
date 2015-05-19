@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateInfo>
+    <appName>cebithero</appName>
+    <appDescription>CeBit 2015 - Hero Application</appDescription>
+    <packageName>de.idepe.cebithero</packageName>
+    <versionCode>6</versionCode>
+    <versionName>1.6</versionName>
+    <forceUpdate>true</forceUpdate>
+    <autoUpdate>true</autoUpdate>
+    <apkUrl>http://lab.guardiansystems.eu/hero/cebit-hero-updates/raw/master/hero.apk</apkUrl>
+    <updateTips>
+        <default>Do you want to update the application?</default>
+        <en>Do you want to update the application?</en>
+        <fr>Mettre à jour l'application actuelle?</fr>
+    </updateTips>
+</updateInfo>

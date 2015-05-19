@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CeBIT HERO</string>
+    <string name="name_first_half">CeBIT</string>
+    <string name="name_second_half">HERO</string>
+    <string name="terms_and_conditions_title">Terms &amp; Conditions</string>
+    <string name="terms_and_conditions">By participating in the contest “CeBIT Hero” held by Software AG and RWTH Aachen University, hereinafter “the Hosts”, you give permission to use your name in connection to the contest on Facebook and/or Twitter.&#x3C;br&#x3E; Additionally, you agree to the possible use of your photo in the Hosts’ galleries on Facebook. You may withdraw such permission at any time by giving written notice to university@softwareag.com.&#x3C;br&#x3E;&#x3C;br&#x3E;
+    If you enter the CeBIT Hero contest, you must have read these terms and conditions and agree to them.&#x3C;br&#x3E;&#x3C;br&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;1.&#x3C;/b&#x3E;	To enter the contest as an active player you must:&#x3C;br&#x3E;
+    &#x3C;i&#x3E;a) &#x3C;/i&#x3E;Be 18 years old or over at the time of entry&#x3C;br&#x3E;&#x3C;br&#x3E;
+    &#x3C;i&#x3E;b) &#x3C;/i&#x3E;Download the CeBIT Hero app and allow for push notifications&#x3C;br&#x3E;&#x3C;br&#x3E;
+    &#x3C;i&#x3E;c) &#x3C;/i&#x3E;Proceed personally at Software AG’s University Relations exhibition booth, Hall 4, C11&#x3C;br&#x3E;&#x3C;br&#x3E;
+    &#x3C;i&#x3E;d) &#x3C;/i&#x3E;Complete the registration form fully and truthfully&#x3C;br&#x3E;&#x3C;br&#x3E;
+    &#x3C;i&#x3E;e) &#x3C;/i&#x3E;Keep your participant ticket with you&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;2.&#x3C;/b&#x3E; This contest is not open to employees (or members of their immediate families) of the Hosts&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;3.&#x3C;/b&#x3E; No purchase necessary.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;4.&#x3C;/b&#x3E; Only one entry per person.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;5.&#x3C;/b&#x3E; The Hosts take no responsibility for entries that are lost or late, or are not received for any reason.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;6.&#x3C;/b&#x3E; All closing dates for both, challenges and raffle are as specified in the contest rules. The Hosts reserve the right to amend the contest rules end dates at any time.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;7.&#x3C;/b&#x3E; Prizes cannot be exchanged for cash or any other prize.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;8.&#x3C;/b&#x3E; If you win the grand prize of the contest, the Hosts will notify you by phone and announce it at Software AG’s exhibition booth. If you do not answer the phone within 30 seconds of being notified, you will forfeit your prize and the Hosts reserve the right to choose another winner. The Hosts decision will be final.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;9.&#x3C;/b&#x3E; The Hosts will endeavor to send the grand prize within a month of the contest’s end date but cannot guarantee this delivery time.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;10.&#x3C;/b&#x3E; To leave the contest during CeBIT 2015, just delete the CeBIT Hero app from your smartphone. You will be recognized as an inactive player and won’t receive any more notifications. Note: by leaving the contest, you will forfeit your chance to win the grand prize.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;11.&#x3C;/b&#x3E; The CeBIT Hero app will be set to inactive mode right after CeBIT 2015. You can delete the CeBIT Hero app from your smartphone.&#x3C;/p&#x3E;
+    &#x3C;p&#x3E;&#x3C;b&#x3E;12.&#x3C;/b&#x3E; The contest is governed by German law. All decisions are final. The Hosts will collect, process and use the personal data that has been provided by you solely for purposes related to the contest. The Hosts will not pass your personal data to third parties without your necessary consent. Personal data will only be collected and transmitted to state institutions and authorities that are entitled to receive such information within the framework of the relevant laws or where the Hosts have been obliged to do so by court order. The Hosts employees and the service providers appointed by the Hosts are bound by a duty of confidentiality and are under an obligation to comply with the provisions of the German Data Protection Act.&#x3C;/p&#x3E;
+    </string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ContentDescriptors -->
+    <string name="description_qr">Click to scan QR-Code</string>
+    <string name="description_logo">Official CeBit Hero Logo</string>
+    <string name="description_logo_softwareag">In cooperation with Software AG</string>
+    <string name="description_logo_livesapp">Created by Livesapp</string>
+    <string name="description_howto_start">Gives you a small tutorial how to participate in the game and the necessary requirements.</string>
+    <string name="description_howto_run">Gives you a brief tutorial of what happens and how to react in the game.</string>
+
+    <string name="tutorialOneTitle" >&#x3C;sub&#x3E;Register as a&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;Hero Candidate&#x3C;/b&#x3E;</string>
+    <string name="tutorialOneMessage" >Visit Software AG’s University Relations booth ( Hall 4 - C11) and get a code to participate in the competition</string>
+    <string name="tutorialOneButton" >NEXT</string>
+    <string name="tutorialTwoTitle" >&#x3C;sub&#x3E;Enter or Scan&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;The Code&#x3C;/b&#x3E;</string>
+    <string name="tutorialTwoMessage" >Every user receives a unique code to be identified by the system. To stay anonymous we will announce the winners by code, unless you allow us to honor your name.</string>
+    <string name="tutorialTwoButton" >NEXT</string>
+    <string name="tutorialThreeTitle" >&#x3C;sub&#x3E;Read our&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;Terms &amp; Conditions&#x3C;/b&#x3E;</string>
+    <string name="tutorialThreeMessage" >By participating in this competition you agree to have read and accept our &#x3C;a href=&#x22;http://www.softwareag.com/cebit2015/upload/SAG_Livesapp_TermsConditions_Mar15_WEB.pdf&#x22;&#x3E;Terms &#x26; Conditions (bottom of screen)&#x3C;/a&#x3E;.&#x3C;br&#x3E;&#x3C;br&#x3E; Good luck!</string>
+    <string name="tutorialThreeButton" >OKAY</string>
+
+    <string name="stepOneTitle" >&#x3C;sub&#x3E;Wait for the&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;Countdown&#x3C;/b&#x3E;</string>
+    <string name="stepOneMessage" >When the countdown ends, the game will start again.&#x3C;br&#x3E;&#x3C;br&#x3E;Make sure you have a good internet connection and be prepared.</string>
+    <string name="stepOneButton" >NEXT</string>
+    <string name="stepTwoTitle" >&#x3C;sub&#x3E;Follow the instructions&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;The Mission&#x3C;/b&#x3E;</string>
+    <string name="stepTwoMessage" >When you receive the alert, follow the instructions on the screen.&#x3C;br&#x3E;&#x3C;br&#x3E;Safety first, don’t rush and stay calm. Brace yourself, everybody wins.</string>
+    <string name="stepTwoButton" >NEXT</string>
+    <string name="stepThreeTitle" >&#x3C;sub&#x3E;Try to&#x3C;/sub&#x3E;&#x3C;br&#x3E;&#x3C;b&#x3E;Be the first&#x3C;/b&#x3E;</string>
+    <string name="stepThreeMessage" >Win rewards for your effort. The first will receive a price.&#x3C;br&#x3E;&#x3C;br&#x3E; Everybody else a small reward and a registration for the raffle to win a &#x3C;b&#x3E;Samsung Galaxy Note 4&#x3C;/b&#x3E;. &#x3C;br&#x3E;&#x3C;br&#x3E;Remember: Everybody wins!</string>
+    <string name="stepThreeButton" >LET\'S GO!</string>
+
+    <string name="mission_leave_title">Leave Mission</string>
+    <string name="mission_leave">Do you want to leave the mission and return to dashboard?</string>
+    <string name="mission_leave_yes">YES</string>
+    <string name="mission_leave_no">NO</string>
+
+    <string name="new_update_available_title">Update available</string>
+    <string name="new_update_available">There is a new update available for this application. Turn on "Unknown Sources" in the security settings. Do you want to upgrade?</string>
+    <string name="new_update_available_yes">YES</string>
+    <string name="new_update_available_no">SKIP</string>
+
+    <string name="new_update_available_progress_title">Downloading</string>
+    <string name="new_update_available_progress">Loading new version...</string>
+    <string name="new_update_available_progress_done">Success!</string>
+    <string name="title_activity_mission">MissionActivity</string>
+
+    <string name="okay" >OKAY</string>
+    <string name="qr_invalid" >The code you have entered is invalid</string>
+    <string name="qr_invalid_title" >Code Not Active</string>
+
+</resources>

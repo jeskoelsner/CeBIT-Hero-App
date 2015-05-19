@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="AppTheme.Full" parent="AppTheme">
+        <item name="android:windowBackground" >@color/primary_color</item>
+        <item name="android:colorBackground">@color/primary_color</item>
+    </style>
+    <style name="AppTheme.Actionbar" parent="AppTheme">
+        <item name="android:windowBackground" >@color/secondary_color</item>
+        <item name="android:colorBackground">@color/secondary_color</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:buttonStyle">@style/UI.Button</item>
+        <item name="android:imageButtonStyle">@style/UI.Button</item>
+        <item name="android:editTextStyle">@style/UI.Edit</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+</resources>

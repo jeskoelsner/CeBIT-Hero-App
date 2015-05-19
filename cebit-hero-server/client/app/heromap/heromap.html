@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-sm-6" style="text-align: center">
+					<img src="http://hero.livesapp.net/logo.png" alt="" style="margin-top: 40px;" width="200px">
+					<h1 style="margin-bottom: 50px">CeBIT<strong>HERO</strong></h1>
+				</div>
+				<div class="col-md-6 col-lg-6 col-sm-6" style="text-align: center">
+					<timer style="display: block; margin: 90px 0 0 0" countdown="1" interval="1000" finish-callback="finished()">
+						{{hhours}}:{{mminutes}}:{{sseconds}}</timer>
+						<a href="api/heroes/csv/0" target="_self">CSV (Sorted)</a>
+						<a href="api/heroes/csv/1" target="_self">CSV (Random)</buttaon>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<h1 class="page-header">All Heroes</h1>
+					<div class="scrollable">
+						<ul class="nav nav-tabs nav-stacked " ng-repeat="hero in getAllUsers(allHeroes) | orderBy:'-score'">
+							<li><a href="#">{{hero.name}}<span class="score">{{hero.score}}</span></a><span class="company">{{hero.company}}</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<h1 class="page-header">Today</h1>
+					<div class="scrollable">
+						<ul class="nav nav-tabs nav-stacked " ng-repeat="hero in getTodayUsers(allHeroes) | orderBy:'-score' | limitTo: 10 ">
+							<li><a href="#">{{hero.name}}<span class="score">{{hero.score}}</span></a><span class="company">{{hero.company}}</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4">
+					<h1 class="page-header">Last Mission</h1>
+					<div class="scrollable">
+						<ul class="nav nav-tabs nav-stacked " ng-repeat="hero in getLastUsers(allHeroes, lastMission[0]) | orderBy:'-score' | limitTo: 10 ">
+							<li><a href="#">{{hero.name}}<span class="score">{{hero.score}}</span></a><span class="company">{{hero.company}}</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<mapbox map-id="proxylittle.lech25j7" lat="52.323" lng="9.806" height="{{ height }}" width="{{ width }}" zoom="16">
+				<div ng-repeat="mission in lastMission | orderBy:'-created' | limitTo: 1">
+					<marker lat="{{mission.lat}}" lng="{{mission.lng}}" color="#0000aa" class="minimarker"></marker>
+				</div>
+				<div ng-repeat="thing in allHeroes">
+					<marker lat="{{thing.lat}}" lng="{{thing.lng}}" color="#aa0000" class="minimarker"></marker>
+				</div>
+			</mapbox>
+		</div>
+	</div>
+</div>

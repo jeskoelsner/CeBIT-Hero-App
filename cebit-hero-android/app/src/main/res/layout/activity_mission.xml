@@ -1,0 +1,117 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="de.idepe.cebithero.MissionActivity">
+
+    <com.mapbox.mapboxsdk.views.MapView
+        android:id="@+id/mapview"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_marginBottom="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapid="proxylittle.ledeo868"
+        mapbox:accessToken="pk.eyJ1IjoicHJveHlsaXR0bGUiLCJhIjoiRmxJZ1dsYyJ9.qCRLx6TCUEb1PF-rvId7pA" >
+    </com.mapbox.mapboxsdk.views.MapView>
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        android:background="@color/primary_color"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="4dp">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="?actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@color/primary_color_dark">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/secondary_color"
+            android:textSize="20sp"
+            android:text="FOLLOW THE FLAG"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/winOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tutorial_transparent">
+        <TextView
+            android:id="@+id/topText"
+            android:text="YOU ARE A"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/primary_color"
+            android:textSize="22sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/topTitle"
+            android:textStyle="italic"
+            android:layout_marginTop="-10dp"
+            android:text="CeBIT HERO"
+            android:textSize="42sp"
+            android:textColor="@color/secondary_color"
+            android:layout_below="@id/topText"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/winLogo"
+            android:layout_below="@id/topTitle"
+            android:layout_centerInParent="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_hero_login"/>
+        <ImageView
+            android:id="@+id/flagLogo"
+            android:layout_below="@id/winLogo"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/winLogo"
+            android:layout_marginLeft="-75dp"
+            android:layout_marginTop="-50dp"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:src="@drawable/mission_sublogo"/>
+        <TextView
+            android:id="@+id/subTitle"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="Speak with us and receive\n your hero reward"
+            android:textColor="@color/secondary_color"
+            android:textSize="24sp"
+            android:layout_below="@id/flagLogo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/accent_color"
+            android:textSize="23sp"
+
+            android:text="CONGRATULATIONS!"
+            android:layout_below="@id/subTitle"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
